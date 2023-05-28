@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alarme</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  
+  <div id="timer" class="timer">
+    <div id="div_data" class="div_data">
+
+    </div>
+    
+    <div id="div_relogio" class="div_relogio">
+      00:00:00
+    </div>
+
+    <div id="def_alarme" class="def_alarme">
+      <div id="def_segundos" class="def_segundos">
+        <label id="hora_alarme">Hora do Alarme:</label><br/>
+        <label id="temp_alarme_segundos">Tempo do Alarme (Segundos)</label>
+        <input type="number" id="tmp_alarme" value="0" min="0">
+      </div> 
+
+      <div id="def_minutos" class="def_minutos">
+        <label id="hora_alarme_minutos">Hora do Alarme:</label><br/>
+        <label id="temp_alarme_minutos">Tempo do Alarme (Minutos)</label>
+        <input type="number" id="tmp_alarme_minutos" value="0" min="0">
+      </div>
+
+      <div id="def_horas" class="def_horas">
+        <label id="hora_alarme_horas">Hora do Alarme:</label><br/>
+        <label id="temp_alarme_horas">Tempo do Alarme (Horas)</label>
+        <input type="number" id="tmp_alarme_horas" value="0" min="0">
+      </div>
+    </div>
+    
+   
+    <div id="comandos" class="comandos">
+      <button id="btn_ativar">Ativar</button>
+      <button id="btn_parar">Parar</button>
+    </div>
+  </div>
+  <script src="/forms.js"></script>
+</body>
+</html>
