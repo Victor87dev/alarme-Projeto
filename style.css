@@ -9,7 +9,14 @@
 }
 
 body{
+  width: 100vw;
+  height: 100vh;
   background-color: #8a8a8a;
+  font-weight: 1000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .timer{
@@ -23,11 +30,9 @@ body{
   padding: 10px;
   border-radius: 5px;
   border: 3px solid #888;
-  margin-inline: auto;
   font-family: 'Inter', sans-serif;
   color: #000;
   border: 3px solid #0f0;
-  margin-top: 10px;
 }
 
 .div_relogio{
